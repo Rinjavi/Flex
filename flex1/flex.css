@@ -1,0 +1,17 @@
+.container {
+    border: 5px solid black;
+    background-color: #0969da;
+    display: inline-flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.container .box {
+    border: 5px solid darkred;
+    background-color: pink;
+    display: inline-flex;
+    justify-content: center;
+    height: 80px;
+    width: 80px;
+    margin: 100px;
+}
