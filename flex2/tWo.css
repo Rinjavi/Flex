@@ -1,0 +1,41 @@
+.header 
+{
+    background-color: rgb(242, 199, 131);
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+li 
+{
+    list-style-type: none;
+    margin: 5px;
+}
+
+a 
+{
+    text-decoration-line: none;
+    background-color: white;
+}
+
+.logo
+{
+    background-color: white;
+    color: rgb(239, 110, 110);
+    font-size: 50px;
+    padding: 4px 32px;
+}
+
+ul 
+{
+    display: flex;
+    gap: 5px;
+    font-size: 25px;
+}
+
+
+
+
