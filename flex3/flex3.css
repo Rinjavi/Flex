@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+
+.header 
+{
+    color: purple;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    gap: 16px;
+}
+
+li 
+{
+    list-style-type: none;
+}
+
+a 
+{
+    text-decoration-line: none;
+    color: purple;
+    
+}
+
+ul 
+{
+    display: flex;
+    gap: 16px;
+
+}
+
+.profile-image
+{
+    background-color: purple;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+button
+{
+    background-color: purple;
+    color: white;
+    border-radius: 15px;
+    margin-left: 600px;
+
+}
+
