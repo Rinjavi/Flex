@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(191, 184, 184);
+}
+
+.modal {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin: 25%;
+    padding: 10px;
+} 
+
+.headline {
+    display: flex;
+    flex: 2 1 0%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.icon {
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(127, 127, 243);
+    color: blue;
+    border-radius: 50%;
+    width: 30px;
+    text-align: center;
+
+}
+
+div.close-button {
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(188, 184, 184);
+    color: gray;
+    border-radius: 50%;
+    width: 30px;
+    text-align: center;
+}
+
+div.header h3 {
+    position: relative;
+}
+
+.base {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.continue {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.cancel {
+    background-color: white;
+    color: blue;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+div.text {
+    margin-left: 100px;
+    margin-right: 100px;
+}

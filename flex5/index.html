@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="flex5.css">
+    <title>Modal</title>
+  </head>
+  <body>
+
+    <!-- Header, text, and buttons are aligned to each other. -->
+    <div class="modal">
+        <div class="headline">
+        <!-- this one goes on the top left --> 
+            <div class="icon">!</div>
+
+            <!-- use <H1> for this put it next to the "!" icon -->
+            <div class="header"><h3>Are you sure you want to do that?</h3></div>
+            
+            <!-- this one goes on the top right next to the headline.-->
+            <div class="close-button">✖</div>
+        </div>
+        <!-- Use the flex-wrap -->
+        <div class="base">
+
+            <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur excepturi id soluta, numquam minima rerum doloremque eveniet aspernatur beatae commodi. Cupiditate recusandae ad repellendus quidem consectetur sequi amet aspernatur cumque!</div>
+            
+            <!-- with the border radius -->
+            <!-- blue background and white font-->
+            <button class="continue">Continue</button>
+            <!-- blue font and black border-->
+            <button class="cancel">Cancel</button>
+            
+        </div>
+    </div>
+  </body>
+</html>
